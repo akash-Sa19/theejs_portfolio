@@ -1,0 +1,34 @@
+import { Html, useProgress } from "@react-three/drei";
+
+const CanvasLoader = () => {
+  const { progress } = useProgress();
+
+  return (
+    // as we are inside a <Canvas> component, we can't use normal jsx inside this, untill we add <Html> tag
+    <Html
+      as="div"
+      center
+      style={{
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        flexDirection: "column",
+      }}
+    >
+      <span className="canvas-loader" />
+      <p
+        style={{
+          fontSize: 14,
+          color: "#f1f1f1",
+          fontWeight: 800,
+          marginTop: 40,
+        }}
+      >
+        {progress !== 0 ? progress.toFixed(2) + "%" : "Loaging..."}
+      </p>
+      CanvasLoader
+    </Html>
+  );
+};
+
+export default CanvasLoader;
