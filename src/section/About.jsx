@@ -13,7 +13,10 @@ const About = () => {
     }, 2000);
   };
   return (
-    <section className="my-20 c-space">
+    <section
+      className="my-20 c-space"
+      id="about"
+    >
       <div className="grid h-full grid-cols-1 gap-5 xl:grid-cols-3 xl:grid-rows-6 md:grid-cols-2">
         {/* El-1 */}
         <div className="col-span-1 xl:row-span-3">
