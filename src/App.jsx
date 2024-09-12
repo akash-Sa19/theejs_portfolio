@@ -2,6 +2,7 @@ import Navbar from "./section/navbar";
 import Hero from "./section/Hero";
 import About from "./section/About";
 import Project from "./section/Project";
+import Clients from "./section/Clients";
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <Hero />
       <About />
       <Project />
+      <Clients />
     </main>
   );
 };
