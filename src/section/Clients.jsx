@@ -30,8 +30,9 @@ const Clients = () => {
 
                 <div className="flex items-center self-end gap-2">
                   {Array.from(
-                    Array.from({ length: 5 }).map((_) => (
+                    Array.from({ length: 5 }).map((_, index) => (
                       <img
+                        key={index}
                         className="w-5 h-5"
                         src="/assets/star.png"
                         alt="starts"

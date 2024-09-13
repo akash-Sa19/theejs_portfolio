@@ -24,9 +24,8 @@ const CanvasLoader = () => {
           marginTop: 40,
         }}
       >
-        {progress !== 0 ? progress.toFixed(2) + "%" : "Loaging..."}
+        {progress !== 0 ? progress.toFixed(2) + "%" : "Loading..."}
       </p>
-      CanvasLoader
     </Html>
   );
 };

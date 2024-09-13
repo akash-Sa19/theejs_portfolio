@@ -5,6 +5,7 @@ import Project from "./section/Project";
 import Clients from "./section/Clients";
 import Contact from "./section/Contact";
 import Footer from "./section/Footer";
+import Experience from "./section/Experience";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <About />
       <Project />
       <Clients />
+      <Experience />
       <Contact />
       <Footer />
     </main>
