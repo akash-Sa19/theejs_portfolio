@@ -313,3 +313,30 @@ export const workExperiences = [
     animation: "salute",
   },
 ];
+
+export const footerlink = [
+  {
+    id: 1,
+    name: "github",
+    href: "https://github.com/akash-Sa19",
+    img: "/assets/github.svg",
+  },
+  {
+    id: 2,
+    name: "twitter",
+    href: "https://twitter.com/AkashSa71312006",
+    img: "/assets/twitter.svg",
+  },
+  {
+    id: 3,
+    name: "linkedin",
+    href: "https://www.linkedin.com/in/akash-sahu-4b4615220/",
+    img: "/assets/linkedin.svg",
+  },
+  // {
+  //   id: 4,
+  //   name: "instagram",
+  //   href: "",
+  //   img: "/assets/instagram.svg",
+  // },
+];
