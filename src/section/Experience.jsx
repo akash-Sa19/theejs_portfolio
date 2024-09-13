@@ -2,8 +2,7 @@ import { Suspense, useState } from "react";
 import { workExperiences } from "../constants";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
-import CanvasLoader from "../components/CanvasLoader";
-import Developer from "../components/Developer";
+import { CanvasLoader, Developer } from "../components";
 
 const Experience = () => {
   const [animationName, setAnimationName] = useState("idle");

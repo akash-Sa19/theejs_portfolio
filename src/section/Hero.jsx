@@ -1,17 +1,19 @@
-import { Canvas } from "@react-three/fiber";
-import HackerRoom from "../components/HackerRoom";
-import { PerspectiveCamera } from "@react-three/drei";
 import { Suspense } from "react";
-import CanvasLoader from "../components/CanvasLoader";
+import {
+  HackerRoom,
+  ReactLogo,
+  Cube,
+  Rings,
+  HeroCamera,
+  Target,
+  Button,
+  CanvasLoader,
+} from "../components";
+import { Canvas } from "@react-three/fiber";
+import { PerspectiveCamera } from "@react-three/drei";
 // import { Leva, useControls } from "leva";
 import { useMediaQuery } from "react-responsive";
 import { calculateSizes } from "../constants";
-import Target from "../components/Target";
-import ReactLogo from "../components/ReactLogo";
-import Cube from "../components/Cube";
-import Rings from "../components/Ring";
-import HeroCamera from "../components/HeroCamera";
-import Button from "../components/Button";
 
 const Hero = () => {
   const isSmall = useMediaQuery({ maxWidth: 440 });
